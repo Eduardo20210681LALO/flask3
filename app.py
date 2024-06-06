@@ -7,7 +7,7 @@ tasks = []
 
 @app.route('/')
 def home():
-    return render_template('index.html')
+    return render_template('Index.html')
 
 # Listar todas las tareas
 @app.route('/tasks', methods=['GET'])
